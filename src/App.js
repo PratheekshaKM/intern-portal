@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
-        <Router>
+        <HashRouter>
           <Navigation />
           <Routes>
             <Route path="/" element={<Login />} />
@@ -19,7 +19,7 @@ function App() {
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/admin" element={<AdminPanel />} />
           </Routes>
-        </Router>
+        </HashRouter>
         <ThemeModal />
       </div>
     </ThemeProvider>
