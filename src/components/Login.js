@@ -44,7 +44,7 @@ function Login() {
           }
      };
 
-          return (
+     return (
           <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
                <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-2xl w-96 transform transition-all duration-300 hover:scale-105">
 
@@ -63,7 +63,7 @@ function Login() {
                               {error}
                          </div>
                     )}
-                    
+
                     <div className="mb-6 flex items-center justify-center">
                          <label className="flex items-center cursor-pointer p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
                               <input

@@ -149,11 +149,10 @@ function Dashboard() {
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Rewards & Unlockables</h2>
                     <div className="space-y-4">
                          <div className="flex items-center p-4 rounded-xl border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
-                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${
-                                   internData.donationsRaised >= 2500
+                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${internData.donationsRaised >= 2500
                                         ? 'bg-green-100 border-green-500 text-green-500 dark:bg-green-900/20 dark:border-green-400 dark:text-green-400'
                                         : 'border-gray-300 dark:border-gray-600'
-                              }`}>
+                                   }`}>
                                    {internData.donationsRaised >= 2500 && (
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -169,11 +168,10 @@ function Dashboard() {
                          </div>
 
                          <div className="flex items-center p-4 rounded-xl border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
-                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${
-                                   internData.donationsRaised >= 5000
+                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${internData.donationsRaised >= 5000
                                         ? 'bg-green-100 border-green-500 text-green-500 dark:bg-green-900/20 dark:border-green-400 dark:text-green-400'
                                         : 'border-gray-300 dark:border-gray-600'
-                              }`}>
+                                   }`}>
                                    {internData.donationsRaised >= 5000 && (
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -189,11 +187,10 @@ function Dashboard() {
                          </div>
 
                          <div className="flex items-center p-4 rounded-xl border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
-                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${
-                                   internData.donationsRaised >= 10000
+                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${internData.donationsRaised >= 10000
                                         ? 'bg-green-100 border-green-500 text-green-500 dark:bg-green-900/20 dark:border-green-400 dark:text-green-400'
                                         : 'border-gray-300 dark:border-gray-600'
-                              }`}>
+                                   }`}>
                                    {internData.donationsRaised >= 10000 && (
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -209,11 +206,10 @@ function Dashboard() {
                          </div>
 
                          <div className="flex items-center p-4 rounded-xl border border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
-                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${
-                                   internData.donationsRaised >= 20000
+                              <div className={`w-8 h-8 flex items-center justify-center border-2 rounded-lg mr-4 transition-all duration-300 ${internData.donationsRaised >= 20000
                                         ? 'bg-green-100 border-green-500 text-green-500 dark:bg-green-900/20 dark:border-green-400 dark:text-green-400'
                                         : 'border-gray-300 dark:border-gray-600'
-                              }`}>
+                                   }`}>
                                    {internData.donationsRaised >= 20000 && (
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />

@@ -13,12 +13,12 @@ export const useTheme = () => {
 export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState(() => {
         const savedTheme = localStorage.getItem('theme');
-        return savedTheme || null; 
+        return savedTheme || null;
     });
 
     const [showThemeModal, setShowThemeModal] = useState(() => {
         const savedTheme = localStorage.getItem('theme');
-        return savedTheme === null; 
+        return savedTheme === null;
     });
 
     useEffect(() => {

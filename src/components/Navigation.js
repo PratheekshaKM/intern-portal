@@ -27,27 +27,27 @@ function Navigation() {
                             Intern Portal
                         </Link>
                     </div>
-                    
+
                     <div className="flex items-center space-x-4">
                         {isLoggedIn && (
                             <>
                                 {internId && (
-                                    <Link 
-                                        to="/dashboard" 
+                                    <Link
+                                        to="/dashboard"
                                         className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Dashboard
                                     </Link>
                                 )}
-                                <Link 
-                                    to="/leaderboard" 
+                                <Link
+                                    to="/leaderboard"
                                     className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Leaderboard
                                 </Link>
                                 {adminId && (
-                                    <Link 
-                                        to="/admin" 
+                                    <Link
+                                        to="/admin"
                                         className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Admin Panel
@@ -55,9 +55,9 @@ function Navigation() {
                                 )}
                             </>
                         )}
-                        
+
                         <ThemeToggle />
-                        
+
                         {isLoggedIn && (
                             <button
                                 onClick={handleLogout}

@@ -112,7 +112,7 @@ function InternList() {
                                                 <input
                                                     type="text"
                                                     value={editForm.name}
-                                                    onChange={(e) => setEditForm({...editForm, name: e.target.value})}
+                                                    onChange={(e) => setEditForm({ ...editForm, name: e.target.value })}
                                                     className="border rounded px-2 py-1 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400"
                                                 />
                                             ) : (
@@ -124,7 +124,7 @@ function InternList() {
                                                 <input
                                                     type="text"
                                                     value={editForm.username}
-                                                    onChange={(e) => setEditForm({...editForm, username: e.target.value})}
+                                                    onChange={(e) => setEditForm({ ...editForm, username: e.target.value })}
                                                     className="border rounded px-2 py-1 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400"
                                                 />
                                             ) : (
@@ -136,7 +136,7 @@ function InternList() {
                                                 <input
                                                     type="text"
                                                     value={editForm.referralCode}
-                                                    onChange={(e) => setEditForm({...editForm, referralCode: e.target.value})}
+                                                    onChange={(e) => setEditForm({ ...editForm, referralCode: e.target.value })}
                                                     className="border rounded px-2 py-1 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400"
                                                 />
                                             ) : (
@@ -148,7 +148,7 @@ function InternList() {
                                                 <input
                                                     type="number"
                                                     value={editForm.donationsRaised}
-                                                    onChange={(e) => setEditForm({...editForm, donationsRaised: e.target.value})}
+                                                    onChange={(e) => setEditForm({ ...editForm, donationsRaised: e.target.value })}
                                                     className="border rounded px-2 py-1 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400"
                                                 />
                                             ) : (

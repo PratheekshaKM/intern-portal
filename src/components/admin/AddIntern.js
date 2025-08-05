@@ -9,7 +9,7 @@ function AddIntern() {
         password: '',
         referralCode: '',
         donationsRaised: 0,
-        joiningDate: '' 
+        joiningDate: ''
     });
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState('');
@@ -35,7 +35,7 @@ function AddIntern() {
 
         try {
             const internId = formData.username.toLowerCase().replace(/\s+/g, '-');
-            
+
             // generate a new referral code if that field is left empty
             const referralCode = formData.referralCode || generateReferralCode();
 
@@ -78,13 +78,12 @@ function AddIntern() {
             <div className="bg-white dark:bg-gray-800 shadow rounded-lg border border-gray-200 dark:border-gray-700">
                 <div className="px-4 py-5 sm:p-6">
                     <h3 className="text-lg leading-6 font-medium text-gray-900 dark:text-white mb-6">Add New Intern</h3>
-                    
+
                     {message && (
-                        <div className={`mb-4 p-3 rounded-md ${
-                            message.includes('Error') 
-                                ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400' 
+                        <div className={`mb-4 p-3 rounded-md ${message.includes('Error')
+                                ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400'
                                 : 'bg-green-100 dark:bg-green-900/20 text-green-700 dark:text-green-400'
-                        }`}>
+                            }`}>
                             {message}
                         </div>
                     )}

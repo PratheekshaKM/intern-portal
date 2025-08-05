@@ -38,11 +38,10 @@ function ThemeModal() {
                         {/* Light Mode */}
                         <button
                             onClick={() => handleThemeSelect('light')}
-                            className={`w-full p-4 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${
-                                selectedOption === 'light'
+                            className={`w-full p-4 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${selectedOption === 'light'
                                     ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
                                     : 'border-gray-200 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-600'
-                            }`}
+                                }`}
                         >
                             <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center">
@@ -60,11 +59,10 @@ function ThemeModal() {
                         {/* Dark Mode */}
                         <button
                             onClick={() => handleThemeSelect('dark')}
-                            className={`w-full p-4 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${
-                                selectedOption === 'dark'
+                            className={`w-full p-4 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${selectedOption === 'dark'
                                     ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
                                     : 'border-gray-200 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-600'
-                            }`}
+                                }`}
                         >
                             <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-900 rounded-lg flex items-center justify-center">

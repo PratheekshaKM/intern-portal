@@ -18,9 +18,9 @@ function Leaderboard() {
                          donationsRaised: Number(doc.data().donationsRaised) || 0
                     }));
                     setInterns(internsList.sort((a, b) => {
-                        const dateA = a.joiningDate?.toDate ? a.joiningDate.toDate() : new Date(a.joiningDate || 0);
-                        const dateB = b.joiningDate?.toDate ? b.joiningDate.toDate() : new Date(b.joiningDate || 0);
-                        return dateA - dateB; // sorting by joining date
+                         const dateA = a.joiningDate?.toDate ? a.joiningDate.toDate() : new Date(a.joiningDate || 0);
+                         const dateB = b.joiningDate?.toDate ? b.joiningDate.toDate() : new Date(b.joiningDate || 0);
+                         return dateA - dateB; // sorting by joining date
                     }));
                } catch (error) {
                     console.error("Error fetching interns:", error);
