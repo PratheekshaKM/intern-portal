@@ -2,7 +2,7 @@
   "name": "intern-portal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PratheekshaKM.github.io/intern-portal",
+  "homepage": "https://pratheekshakm.github.io/intern-portal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
