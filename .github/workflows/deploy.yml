@@ -24,7 +24,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        # This is the step you need to modify
         run: npm run build
         env:
           REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
