@@ -1,0 +1,15 @@
+{
+     "short_name": "Intern Portal",
+     "name": "Fundraising Intern Portal",
+     "icons": [
+          {
+               "src": "shecan-logo.png",
+               "sizes": "64x64 32x32 24x24 16x16",
+               "type": "png/image/x-icon"
+          }
+     ],
+     "start_url": ".",
+     "display": "standalone",
+     "theme_color": "#000000",
+     "background_color": "#ffffff"
+}
